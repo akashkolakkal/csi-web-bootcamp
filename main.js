@@ -9,11 +9,11 @@
 // Event listener to start the game on keypress
 document.addEventListener("keypress", function() {
   // Check if the game hasn't started
-  if (!started) {
+  // Hint: use conditional statement
     // Update title to show current level
     // Call function to generate the first sequence
     // Set game as started
-  }
+  
 });
 
 // Event listener for button clicks
