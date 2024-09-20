@@ -1,0 +1,80 @@
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+    background-color: #f4f4f9;
+    text-align: center;
+}
+
+/* Header styling */
+h1 {
+    color: #333;
+}
+
+/* Input styling */
+input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button styling */
+button {
+    padding: 10px 15px;
+    margin-left: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Task list styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px auto;
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+/* Individual buttons inside the task items */
+li button {
+    background-color: #dc3545;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+
+li button:hover {
+    background-color: #c82333;
+}
+
+/* Styling for the "Complete" button */
+li button.complete-btn {
+    background-color: #007bff;
+}
+
+li button.complete-btn:hover {
+    background-color: #0069d9;
+}
